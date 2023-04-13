@@ -7,7 +7,7 @@ import getCookie from '../getCookie';
 const token = getCookie('token_user');
 console.log('token: ' + token);
 const axiosClient = axios.create({
-	baseURL: 'https://njs-asm-03-be-y7ad.vercel.app/',
+	baseURL: 'https://njs-asm-03-be.vercel.app/',
 	headers: {
 		Authorization: 'Bearer ' + token,
 		'Content-Type': 'application/json'
